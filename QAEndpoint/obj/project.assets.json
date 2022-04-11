@@ -1178,24 +1178,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shikikami\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\My\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\QAEndpoint\\QAEndpoint\\QAEndpoint.csproj",
+      "projectUniqueName": "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\QAEndpoint\\QAEndpoint.csproj",
       "projectName": "QAEndpoint",
-      "projectPath": "D:\\Repo\\QAEndpoint\\QAEndpoint\\QAEndpoint.csproj",
-      "packagesPath": "C:\\Users\\Shikikami\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\QAEndpoint\\QAEndpoint\\obj\\",
+      "projectPath": "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\QAEndpoint\\QAEndpoint.csproj",
+      "packagesPath": "C:\\Users\\My\\.nuget\\packages\\",
+      "outputPath": "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\QAEndpoint\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Shikikami\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\My\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1256,7 +1251,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

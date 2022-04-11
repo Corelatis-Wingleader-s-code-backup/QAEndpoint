@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using QAEndpoint.Data.Models;
 
 namespace QAEndpoint.Data {
+    /// <summary>
+    /// 仓储接口
+    /// </summary>
     public interface IDataRepository {
         /** READ DATA FROM DATABASE **/
         IEnumerable<QuestionGetManyResponse> GetQuestions();

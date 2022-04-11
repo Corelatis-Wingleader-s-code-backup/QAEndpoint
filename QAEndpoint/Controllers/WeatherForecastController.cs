@@ -44,6 +44,13 @@ namespace QAEndpoint.Controllers {
             return QuestionRepository.QuestionList.Where(q => q.QuestionContent.Contains(keywords));
         }
 
+        //假设前端是通过表单的方式提交数据
+        [HttpPost]
+        [Route("login")]
+        public bool Login([FromForm]string userName,[FromForm]string password) {
+            return false;
+        }
+
         [HttpPost]
         [Route("AskQuestion")]
         public IActionResult AddQuestion([FromBody] Question question) {
@@ -55,3 +62,20 @@ namespace QAEndpoint.Controllers {
         }
     }
 }
+
+// 什么是restfull api ？
+// 查询：Get  插入：Post 更新：Put 删除：Delete
+/**
+ * 从服务端查询问题列表：
+ * Http Get: api/question/questions
+ * 插入操作：
+ * Http Post: api/question/questions
+ * 更新操作：
+ * Http Put：
+ * 删除：
+ * Http Delete：
+ * 
+ * 
+ * HTTP QUERY:  api/question/questions  ?id=10&&user=abc
+ * ROUTE:       api/question/questions/10
+ */

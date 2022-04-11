@@ -1,10 +1,15 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+
+//添加Dapper和SqlClient的引用
 using System.Data.SqlClient;
 using Dapper;
+
 using QAEndpoint.Data.Models;
+
 namespace QAEndpoint.Data {
+    //仓储的实现类 - 使用Dapper
     public class DataRepository : IDataRepository {
         //readonly keyword prevents the variable from being 
         // changed outside of the class constructor
@@ -60,6 +65,8 @@ namespace QAEndpoint.Data {
             //notice that use a using block to declare the database connection
             using var connection = new SqlConnection(connectionString_);
             connection.Open();
+            // Query 是Dapper提供的 SqlConnection对象的  扩展 
+            // DAPPER执行无参的存储过程或者SQL
             return connection.Query<QuestionGetManyResponse>(
                 @"EXEC dbo.Question_GetMany"
             );
@@ -71,7 +78,7 @@ namespace QAEndpoint.Data {
             // This is how pass in the Stored Procedure parameter value
             return connection.Query<QuestionGetManyResponse>(
                 @"EXEC dbo.Question_GetMany_BySearch @Search=@Search", 
-                new { Serch = search }
+                new { Search = search }
                 );
         }
 
