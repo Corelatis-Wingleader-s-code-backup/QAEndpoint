@@ -20,7 +20,7 @@ namespace QAEndpoint.Data {
         // we use when accessing the configuration object is the path
         // to the item we want from the appsettings.json file,with colons
         // being used to navigate the fields in the JSON
-        public  DataRepository(IConfiguration configuration) {
+        public DataRepository(IConfiguration configuration) {
             connectionString_ = configuration["ConnectionStrings:DefaultConnection"];
         }
 
@@ -77,7 +77,7 @@ namespace QAEndpoint.Data {
             connection.Open();
             // This is how pass in the Stored Procedure parameter value
             return connection.Query<QuestionGetManyResponse>(
-                @"EXEC dbo.Question_GetMany_BySearch @Search=@Search", 
+                @"EXEC dbo.Question_GetMany_BySearch @Search=@Search",
                 new { Search = search }
                 );
         }
@@ -91,7 +91,16 @@ namespace QAEndpoint.Data {
         }
 
         public AnswerGetResponse PostAnswer(AnswerPostRequest answer) {
-            throw new NotImplementedException();
+            using var connection = new SqlConnection(connectionString_);
+            connection.Open();
+            return connection.QueryFirst<AnswerGetResponse>(
+                @"EXEC dbo.Answer_Post 
+                @QuestionId = @QuestionId,
+                @Content=@Content,
+                @UserId =@UserId,
+                @UserName=@UserName,
+                @Created=@Created",
+                answer);
         }
 
         public QuestionGetSingleResponse PostQuestion(QuestionPostRequest question) {
@@ -108,7 +117,7 @@ namespace QAEndpoint.Data {
         }
 
         public QuestionGetSingleResponse PutQuestion(int questionId, QuestionPutRequest question) {
-           using var connection = new SqlConnection(connectionString_);
+            using var connection = new SqlConnection(connectionString_);
             // use Dapper Execute method because we are simply executing a  
             // stored procedure and not returning anything
             connection.Execute(@"EXEC dbo.Question_Put 

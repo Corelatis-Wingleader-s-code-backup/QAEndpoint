@@ -28,6 +28,17 @@ namespace QAEndpoint {
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "QAEndpoint", Version = "v1" });
             });
+
+            //inject DataRepository to controller
+            services.AddScoped<QAEndpoint.Data.IDataRepository, 
+                QAEndpoint.Data.DataRepository>();
+
+            var configuration = Configuration.GetSection("ClientInformation");
+            services.Configure<AppSettings>(configuration);
+            var settings = configuration.Get<AppSettings>();
+            Console.WriteLine(settings);
+            AppHelper.AppSettings = settings;
+
             services.AddCors(options => {
                 options.AddPolicy(anyAllowSpecificOrigins, corsbuilder => {
                     var corsPath = Configuration.GetSection("CorsPaths").GetChildren().Select(p => p.Value).ToArray();
