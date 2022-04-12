@@ -30,11 +30,17 @@ namespace QAEndpoint {
             });
 
             //inject DataRepository to controller
+            //在服务容器注册接口及其实现类
             services.AddScoped<QAEndpoint.Data.IDataRepository, 
+                //指定需要这个接口的哪个实现类
                 QAEndpoint.Data.DataRepository>();
 
+            //GetSection：获取指定配置节的内容
             var configuration = Configuration.GetSection("ClientInformation");
+            //读取配置内容之后，注册一个类型TOption，用于绑定配置内容
             services.Configure<AppSettings>(configuration);
+            //将配置信息绑定到给定的TOption类型的实例上（配置节中的每一项名称与TOpetion类型的实例成员名称要求一一对应）
+            //绑定成功的场合，返回一个TOption类型的实例
             var settings = configuration.Get<AppSettings>();
             Console.WriteLine(settings);
             AppHelper.AppSettings = settings;

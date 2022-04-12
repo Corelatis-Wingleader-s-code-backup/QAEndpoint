@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\QAEndpoint\\QAEndpoint.csproj": {}
+    "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\DI.Demo\\DI.Demo.csproj": {}
   },
   "projects": {
-    "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\QAEndpoint\\QAEndpoint.csproj": {
+    "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\DI.Demo\\DI.Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\QAEndpoint\\QAEndpoint.csproj",
-        "projectName": "QAEndpoint",
-        "projectPath": "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\QAEndpoint\\QAEndpoint.csproj",
+        "projectUniqueName": "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\DI.Demo\\DI.Demo.csproj",
+        "projectName": "DI.Demo",
+        "projectPath": "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\DI.Demo\\DI.Demo.csproj",
         "packagesPath": "C:\\Users\\My\\.nuget\\packages\\",
-        "outputPath": "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\QAEndpoint\\obj\\",
+        "outputPath": "E:\\workspace\\SE 2\\QandA website\\QAEndpoint\\DI.Demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\My\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,24 +39,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.123, )"
-            },
-            "Microsoft.AspNetCore.Cors": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -68,9 +50,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

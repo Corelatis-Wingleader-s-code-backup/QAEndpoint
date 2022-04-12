@@ -34,3 +34,40 @@ D:\Repo\QAEndpoint\QAEndpoint\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 D:\Repo\QAEndpoint\QAEndpoint\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Repo\QAEndpoint\QAEndpoint\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Repo\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.csproj.CopyComplete
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\appsettings.Development.json
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\appsettings.json
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\QAEndpoint.exe
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\QAEndpoint.deps.json
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\QAEndpoint.runtimeconfig.json
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\QAEndpoint.runtimeconfig.dev.json
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\QAEndpoint.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\ref\QAEndpoint.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\QAEndpoint.pdb
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\Dapper.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.csproj.AssemblyReference.cache
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.GeneratedMSBuildEditorConfig.editorconfig
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.AssemblyInfoInputs.cache
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.AssemblyInfo.cs
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.csproj.CoreCompileInputs.cache
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.MvcApplicationPartsAssemblyInfo.cs
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.MvcApplicationPartsAssemblyInfo.cache
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\staticwebassets\QAEndpoint.StaticWebAssets.Manifest.cache
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\staticwebassets\QAEndpoint.StaticWebAssets.xml
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\scopedcss\bundle\QAEndpoint.styles.css
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.RazorTargetAssemblyInfo.cache
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.csproj.CopyComplete
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\ref\QAEndpoint.dll
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.pdb
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\obj\Debug\net5.0\QAEndpoint.genruntimeconfig.cache
+E:\workspace\SE 2\QandA website\QAEndpoint\QAEndpoint\bin\Debug\net5.0\appsettings.Release.json

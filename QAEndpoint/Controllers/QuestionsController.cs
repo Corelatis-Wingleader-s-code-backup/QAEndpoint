@@ -18,10 +18,9 @@ namespace QAEndpoint.Controllers {
     [Route("api/[controller]")]
     [ApiController]
     public class QuestionsController : ControllerBase {
-        private ILogger logger_ { get; init; }
         private IDataRepository dataRepository_ { get; init; }
-        public QuestionsController(ILogger logger, IDataRepository DataRepository) {
-            logger_ = logger;
+        public QuestionsController(IDataRepository DataRepository) {
+
             dataRepository_ = DataRepository;
         }
         [HttpGet]
