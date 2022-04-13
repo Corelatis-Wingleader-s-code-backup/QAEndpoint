@@ -108,9 +108,9 @@ namespace QAEndpoint.Data {
             connection.Open();
             var questionId = connection.QueryFirst<int>(
                 @"EXEC dbo.Question_Post
-                @Title = @Title , @Content = @Content,
+                @Title = @Title , @Content = @Content ,
                 @UserId = @UserId , @UserName = @UserName,
-                @Created = @Created,",
+                @Created = @Created",
                 question
                 );
             return GetQuestion(questionId);

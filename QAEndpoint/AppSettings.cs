@@ -8,9 +8,9 @@ namespace QAEndpoint {
     //配置项名称完全一致
     //*这里使用class也是可以的
     //*这个类的名称是可以自己决定的
+    //*使用record可以阻止配置被初始化之后在其他地方被意外修改
     public record AppSettings {
-        public
-             string ServiceUrl { get; init; }
+        public string ServiceUrl { get; init; }
         public string AssemblyPath { get; init; }
         public string LicenseStart { get; init; }
         public string HostAddress { get; init; }
